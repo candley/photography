@@ -1993,3 +1993,9 @@
 		#footer .copyright a {
 			color: inherit;
 		}
+
+	#footer .quote {
+		font-size: 0.75em;
+	    line-height: 122%;
+	    font-style: italic;
+	}
