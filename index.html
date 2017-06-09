@@ -7,7 +7,7 @@ layout: default
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="index.html">Rafa Gutierrez</a>Photography</h1>
+        <h1><a href="index.html">You Make Beautiful Things</a></h1>
         <nav>
             <ul>
                 <li><a href="#footer" class="icon fa-info-circle">About</a></li>
@@ -17,7 +17,7 @@ layout: default
 
     <!-- Main -->
     <div id="main">
-        {% for image in site.static_files reversed %}
+        {% for image in site.static_files %}
             {% if image.path contains 'fulls' %}
                 <article class="thumb">
                     <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
@@ -34,7 +34,8 @@ layout: default
         <div class="inner split">
             <div>
                 <section>
-                    <h2>Hey there, my name is Rafa</h2>
+                    <h2>YOU MAKE BEAUTIFUL THINGS</h2>
+                    <p class="quote">{{ site.subtitle }}</p>
                     <p>{{ site.bio }}</p>
                     <p>{{ site.publicise }}</p>
                 </section>
@@ -50,9 +51,6 @@ layout: default
                         <li><a href="{{ site.social_urls.instagram }}" class="icon fa-instagram"><span
                                 class="label">Instagram</span></a>
                         </li>
-                        <li><a href="{{ site.social_urls.dribbble }}" class="icon fa-dribbble"><span
-                                class="label">Dribbble</span></a>
-                        </li>
                         <li><a href="{{ site.social_urls.github }}" class="icon fa-github"><span
                                 class="label">GitHub</span></a>
                         </li>
@@ -62,12 +60,15 @@ layout: default
                     </ul>
                 </section>
                 <p class="copyright">
-                    &copy; {{ site.author }}. Design: {{ site.web_design }}
+                    &copy; {{ site.author }}. Original site code: {{site.design}}.
                 </p>
             </div>
             <div>
                 <section>
-                    <h2>Get in touch</h2>
+                    <div>
+                        <img src="./assets/img/leica.jpg" />
+                    </div>
+                    <!-- <h2>Get in touch</h2>
                     <form method="post" action="#">
                         <div class="field half first">
                             <input type="text" name="name" id="name" placeholder="Name"/>
@@ -82,7 +83,7 @@ layout: default
                             <li><input type="submit" value="Send" class="special"/></li>
                             <li><input type="reset" value="Reset"/></li>
                         </ul>
-                    </form>
+                    </form> -->
                 </section>
             </div>
         </div>

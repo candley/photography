@@ -6,11 +6,11 @@ image_thumbs_loc: "/images/thumbs"
 google_analytics: ""
 
 # UI configs
-title: "Photography by Rafa Gutierrez"
-subtitle: "See the world through my eyes!"
+title: "YOUMAKEBEAUTIFULTHINGS"
+subtitle: "Being human means you will make mistakes. And you will make mistakes, because \n failure is God's way of moving you in another direction. - Oprah Winfrey"
 author: "Rafa Gutierrez"
 bio: "I am a carto/photographer from Portland, Oregon, USA."
-publicise: "Fork <a href=\"https://github.com/ramswaroop/photography\"> on github</a> for your own Jekyll site ;)"
+design: "<a href=\"https://github.com/ramswaroop/photography\"> on github</a>."
 social_urls:
   facebook: "https://www.facebook.com/rafa.gutierrez"
   twitter: "https://www.twitter.com/geografa"
